@@ -6,7 +6,7 @@ const PROD_BASE_URL = "http://101.33.240.245";
 
 // 创建axios 实例
 const myAxios = axios.create({
-  baseURL: PROD_BASE_URL,
+  baseURL: DEV_BASE_URL,
   timeout: 60000,
   withCredentials: true,
 })
